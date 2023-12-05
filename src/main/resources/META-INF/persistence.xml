@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="nombreUnidadPersistencia" transaction-type="RESOURCE_LOCAL">
+        <!-- Configuraciones específicas de Hibernate y la base de datos -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <properties>
+            <!-- Propiedades de conexión a la base de datos, dialecto, etc. -->
+        </properties>
+    </persistence-unit>
+</persistence>
